@@ -1,0 +1,9 @@
+{
+  "schema": "omniwrap.language-sdk/v1",
+  "generator": "OmniWrap 2.0.0",
+  "language": "go",
+  "slug": "go",
+  "package": "github.com/jackai-dev/jackai-sdk-go",
+  "repository": "https://github.com/jackai-dev/jackai-sdk-go",
+  "version": "1.0.0"
+}
