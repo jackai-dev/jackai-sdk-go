@@ -1,0 +1,101 @@
+{
+  "$schema": "https://omniwrap.dev/schemas/go-package/v1.json",
+  "client_constructor": "NewClient",
+  "go_version": "1.24",
+  "module_path": "github.com/omniwrap/jackaiplatformoshubapipublicsubset-sdk",
+  "package_name": "jackaiplatformoshubapipublicsubset",
+  "package_version": "1.0.0",
+  "source_files": [
+    {
+      "path": "agent-session.json",
+      "sha256": "9c746ceab075ddafa0b7f325302030457dd2622d7cecc2c85abb2bffd776f6d8",
+      "size_bytes": 59624
+    },
+    {
+      "path": "agent_session.go",
+      "sha256": "cb07f000b0126d8b00435c03fe8d790084f253c2d2728b78c431dfb338e8c3de",
+      "size_bytes": 52191
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "463d5147690024d05a70833dd8cc34e11de475e90782b8a20292503f7ef2d8dd",
+      "size_bytes": 5220
+    },
+    {
+      "path": "api.md",
+      "sha256": "17a2ef7d020d6dbaeca90e61fdf7880d503f5f64c82d40bc6e96e35d3139b5a8",
+      "size_bytes": 12165
+    },
+    {
+      "path": "client.go",
+      "sha256": "57b5d4037efd79e54db3e438c687f28988b72833f436c8ac7aa09c4f2b6b65a6",
+      "size_bytes": 2314
+    },
+    {
+      "path": "format/format.go",
+      "sha256": "57a095beafcb5e5f8978266a645b787c1b7e889ab3b46b1941aa4d2c4be699ab",
+      "size_bytes": 10721
+    },
+    {
+      "path": "go.mod",
+      "sha256": "dc73975df917e171c4158242acaf0abd90406bc92ff803e3136456cc198e2d70",
+      "size_bytes": 75
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb11dfcf40507855f2fbe0fdcee036cfe549b3ef7e52ebeb09e0dd66d552a128",
+      "size_bytes": 282
+    },
+    {
+      "path": "models.go",
+      "sha256": "63cab1da81131ef791462f07bf3b7f0a0001762abcdd2d2efe8531fc9c203353",
+      "size_bytes": 494
+    },
+    {
+      "path": "option/option.go",
+      "sha256": "5a8051466a16f8d5136972aa2eaa096329e5a63bb3848a5a94582978bf5922bf",
+      "size_bytes": 13843
+    },
+    {
+      "path": "paging.go",
+      "sha256": "2137ab98fa3bb9ed1259d4003d7e35953e0ebc52fc56165f3da57e430c726d73",
+      "size_bytes": 7894
+    },
+    {
+      "path": "param/param.go",
+      "sha256": "918d7132e38c95128b3b081c93f7cefb8bd5ff31856118f4b723c3b2b63af7d8",
+      "size_bytes": 1341
+    },
+    {
+      "path": "README.md",
+      "sha256": "dc7baad96582278fe5d6b241bd5c8d0cf32e36305988521b81e538dc647d6dc7",
+      "size_bytes": 12642
+    },
+    {
+      "path": "resources.go",
+      "sha256": "5b12c83f17c7cf02345871f754efb00e6c6d2d546ee33d1431234ef4d286d346",
+      "size_bytes": 10690
+    },
+    {
+      "path": "runtime.go",
+      "sha256": "3f840a284284f41164b5a1f523e4fd0ebb6c220915cbc05ff624cafd51e40295",
+      "size_bytes": 33200
+    },
+    {
+      "path": "runtime_test.go",
+      "sha256": "4aec90067fb38cfc51e6e435d3a78e33d466dba69c000837b3eb70cce1c250d6",
+      "size_bytes": 45976
+    },
+    {
+      "path": "schema.go",
+      "sha256": "a6c079b6d4e6f7d43c2e94a66c859e278f143456087ebcadd84aee22f3c4bea7",
+      "size_bytes": 21480
+    },
+    {
+      "path": "wire.go",
+      "sha256": "6a7b2a588c1502886c5c84cc3b3ccb8598274a5d9f6377ed35cf91a6d78e8bab",
+      "size_bytes": 10642
+    }
+  ],
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,76 @@
+{
+  "contract_fingerprint": "c7ca5e5ebb4c092910ec72b371e188303358c5e34d2908c0a88f782a241162cf",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "github.com/omniwrap/jackaiplatformoshubapipublicsubset-sdk@v1.0.0",
+        "ecosystem": "Go modules",
+        "entry": "jackaiplatformoshubapipublicsubset.NewClient",
+        "import": "import \"github.com/omniwrap/jackaiplatformoshubapipublicsubset-sdk\""
+      },
+      "operations": {
+        "failUsageQuota": {
+          "member": "V1.FailUsageQuota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/fail",
+          "resource": "V1",
+          "signature": "func (service *V1Service) FailUsageQuota(ctx context.Context, params V1FailUsageQuotaParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "finalizeUsageQuota": {
+          "member": "V1.FinalizeUsageQuota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/finalize",
+          "resource": "V1",
+          "signature": "func (service *V1Service) FinalizeUsageQuota(ctx context.Context, params V1FinalizeUsageQuotaParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "getCurrentUser": {
+          "member": "User.GetCurrent",
+          "method": "GET",
+          "path": "/user/me",
+          "resource": "User",
+          "signature": "func (service *UserService) GetCurrent(ctx context.Context, params UserGetCurrentParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "getHealth": {
+          "member": "Health.Get",
+          "method": "GET",
+          "path": "/health",
+          "resource": "Health",
+          "signature": "func (service *HealthService) Get(ctx context.Context, params HealthGetParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "getSignupPolicy": {
+          "member": "User.GetSignupPolicy",
+          "method": "GET",
+          "path": "/user/auth/signup-policy",
+          "resource": "User",
+          "signature": "func (service *UserService) GetSignupPolicy(ctx context.Context, params UserGetSignupPolicyParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "loginUser": {
+          "member": "User.Login",
+          "method": "POST",
+          "path": "/user/auth/login",
+          "resource": "User",
+          "signature": "func (service *UserService) Login(ctx context.Context, params UserLoginParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "reserveUsageQuota": {
+          "member": "V1.ReserveUsageQuota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/reserve",
+          "resource": "V1",
+          "signature": "func (service *V1Service) ReserveUsageQuota(ctx context.Context, params V1ReserveUsageQuotaParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        },
+        "submitWaitlistRequest": {
+          "member": "User.SubmitWaitlistRequest",
+          "method": "POST",
+          "path": "/user/auth/waitlist",
+          "resource": "User",
+          "signature": "func (service *UserService) SubmitWaitlistRequest(ctx context.Context, params UserSubmitWaitlistRequestParams, opts ...option.RequestOption) (*Response[JSONValue], error)"
+        }
+      },
+      "package_directory": "../jackaiplatformoshubapipublicsubset-sdk",
+      "package_manifest": "go.mod",
+      "reference": "api.md",
+      "renderer": "go"
+    }
+  ]
+}
